@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:taff2/dialobox.dart';
+import 'package:taff2/myhomepage.dart';
 import 'package:taff2/pharmacie.dart';
 
 import 'cardpage.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const CardPage(),
+      home: const Dialoguebox(),
     );
   }
 }
